@@ -73,12 +73,13 @@ switch (key) {
 
 //費氏數列練習
 // 遞迴解
-let i = 4;
+// let i = 4;
 
-function factorial(i) {
-    if (i == 0) {
-        return 1;
-    } else {
-        return i + factorial(i - 1);
-    }
-}
+// function factorial(i) {
+//     if (i == 0) {
+//         return 1;
+//     } else {
+//         return i + factorial(i - 1);
+//     }
+// }
+// alert(factorial(i));
