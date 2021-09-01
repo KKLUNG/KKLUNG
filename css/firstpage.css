@@ -1,0 +1,71 @@
+body {
+    background-image: url('../image/S__54042693.jpg');
+    background-size: 100% auto;
+}
+
+.title {
+    font-family: "微軟正黑體";
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.5);
+}
+
+.app {
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #000;
+    box-sizing: border-box;
+}
+
+input {
+    width: 100%;
+    height: 30px;
+}
+
+.add {
+    margin-top: 20px;
+    background-color: #000;
+    color: #fff;
+    border: 0;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 15px;
+}
+
+.list {
+    padding-top: 20px;
+}
+
+.item {
+    width: 100%;
+    border-bottom: 1px solid #000;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.remove {
+    background-color: rgb(212, 101, 101);
+    margin-top: 20px;
+    color: #fff;
+    border: 0;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 15px;
+}
+
+.button {
+    background-color: #4CAF50;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
