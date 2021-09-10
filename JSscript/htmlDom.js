@@ -20,3 +20,14 @@ window.addEventListener('load', function(params) {
         console.log('e.target.value', e.target.value)
     })
 })
+
+
+
+function change() {
+    //innerHTML:修改內文
+    //
+    var countOne = document.getElementById("count1")
+    countOne.innerHTML = "壞";
+    countOne.style.fontWeight = "bold";
+    countOne.style.display = "none";
+}

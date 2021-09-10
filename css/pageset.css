@@ -1,0 +1,58 @@
+body {
+    margin: 0px;
+}
+
+nav {
+    display: flex;
+}
+
+nav>.logo {
+    /* 沒有彈性，固定尺寸 */
+    flex: none;
+    width: 100px;
+    background-color: rgba(255, 0, 255, 0.842);
+}
+
+nav>.menu {
+    /* 盡量把容器空間占滿 */
+    flex: auto;
+    background-color: rgba(0, 255, 242, 0.842);
+}
+
+nav>.user {
+    flex: none;
+    width: 100px;
+    background-color: #ccffcc;
+}
+
+main {
+    display: flex;
+    /* flex-wrap: wrap;使rwd可以自動換行。 */
+    flex-wrap: wrap;
+    /* 水平對齊 */
+    /* justify-content: center靠中 flex-start靠左 flex-end靠右; */
+    justify-content: center;
+    /* 垂直對齊 */
+    /* stretch 預設值，會讓其他項目做延展 center 置中 flex-start 垂直靠上 flex-start 靠下 */
+    align-items: stretch;
+    background-color: #cccccc;
+}
+
+main>.item {
+    flex: none;
+    width: 270px;
+    margin: 10px;
+    background-color: #ffcccc;
+}
+
+@media (max-width:1200px) {
+    main>.item {
+        width: 45%;
+    }
+}
+
+@media (max-width:500px) {
+    main>.item {
+        width: 90%;
+    }
+}

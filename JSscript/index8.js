@@ -35,13 +35,10 @@ addedBtn.addEventListener('click', function() {
         date: date.value,
         time: time.value
     })
-
     render()
-
 })
 
 deletedBtn.addEventListener('click', function() {
     listContent.shift()
-
     render()
 })
